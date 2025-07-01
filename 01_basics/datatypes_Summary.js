@@ -29,4 +29,5 @@ let object = {
 let arrayInJs = ["Sufiyan khan",21];
 
 console.log(  typeof arrayInJs);
+console.log(  typeof arrayInJs);
 
