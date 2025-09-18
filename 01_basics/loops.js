@@ -18,8 +18,6 @@ let arr = ["suffu", "md","nv","najjo"];
 
 let i = 1;
 do{
-    console.log("runs atleast once");
-}while(i > arr.length){
-    console.log("condition is not matched");
-    
-}
+    console.log("runs atleast once" + i);
+    i++;
+}while(i < arr.length);
