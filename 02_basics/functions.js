@@ -6,7 +6,7 @@ const myobj ={
     "phone":8421234411
 }
 
-console.log(typeof hero);
+console.log(typeof myobj);
 
 
 // let myFuntion = function(){
