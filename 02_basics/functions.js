@@ -13,7 +13,7 @@ console.log(typeof hero);
 //     console.log("Hello worlds",myobj.name);
     
 // }
-
+// heloo
 // console.log(typeof myFuntion());
 
 
