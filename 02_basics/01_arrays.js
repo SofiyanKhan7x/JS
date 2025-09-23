@@ -16,5 +16,14 @@ const arr2 = [0,1,2,3,4,5];
 // console.log("slice ",arr2.splice(1,3) ); // Splice methid actully manipulate the real array
 // console.log("Aafter slice = " , arr2);
 
-console.log(arr2.length);
+// console.log(arr2.length);
 
+//  arr.push(arr2);
+//  arr.concat(arr2);
+
+// console.log(arr.concat(arr2));
+// console.log(arr);
+
+let to = [...arr,...arr2];
+
+console.log(typeof arr);
