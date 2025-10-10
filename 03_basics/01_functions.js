@@ -12,9 +12,23 @@
 // console.log(addTwoNumber(2,3));
 
 
-function returnSecondValue(anyArray){
-    return anyArray
-}
+// function returnSecondValue(anyArray){
+//     return anyArray
+// }
 
-const array = [100,300,4000,400]
-console.log(returnSecondValue(array));
+// const array = [100,300,4000,400]
+// const obj = {
+//     "username":"sufiyan",
+//     "Tech" : "Java"
+// }
+// console.log(returnSecondValue(obj));
+
+/////////////////////////// SCOPE //////////////////
+
+let a = 1
+const b = 12
+var c = 1
+
+console.log(a);
+console.log(b);
+console.log(c);
