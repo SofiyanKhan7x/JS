@@ -3,11 +3,18 @@
     
 // }
 
-function addTwoNumber(number1 , number2){
-    const result = number1 + number2;
-    return result
+// function addTwoNumber(number1 , number2){
+//     const result = number1 + number2;
+//     return result
+// }
+
+
+// console.log(addTwoNumber(2,3));
+
+
+function returnSecondValue(anyArray){
+    return anyArray
 }
 
-
-console.log(addTwoNumber(2,3));
-
+const array = [100,300,4000,400]
+console.log(returnSecondValue(array));
