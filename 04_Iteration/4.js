@@ -19,3 +19,4 @@ const newArr = arr.reduce( (acc ,curval) => {
 },0 )
 
 console.log(newArr);
+
