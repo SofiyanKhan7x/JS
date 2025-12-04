@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: black; color: aliceblue;">
+
+    <h1>welcome to setInterval project</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+</body>
+<script>
+
+    const start = document.querySelector('#start');
+    const stop = document.getElementById('stop');
+
+    let intervalId;
+    const message = function (str) {
+        console.log(str, Date.now());
+
+    }
+
+    const startInterval = function () {
+        if (!intervalId) {
+            intervalId=  setInterval(message, 1000, "Hello sufiyan ")
+
+        }
+
+    }
+
+    const stopInterVal = function(){
+        clearInterval(intervalId)
+       intervalId = null;
+       console.log('interval stopped! if you want to start again then press Start button ');
+       
+       
+    }
+
+    start.addEventListener('click', startInterval)
+    stop.addEventListener('click', stopInterVal)
+
+
+
+</script>
+
+</html>
